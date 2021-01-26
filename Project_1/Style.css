@@ -1,0 +1,45 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.menuact{
+    font-weight: bold;
+    /* text-decoration: underline; */
+    border-bottom: 3px solid rgb(235, 215, 215);
+}
+.btnho{
+    border-radius: 20px;
+    border: 2px solid blue;
+    transition: 0.5s ;
+}
+.btnho:hover{
+    background-color: royalblue;
+    color: seashell;
+    border-radius: 20px;
+}
+.cardimg{
+    height: 300px;
+}
+.animated{
+    height: 80vh;
+    width: 400px;
+    animation: up-down 1.5s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
